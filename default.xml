@@ -9,8 +9,7 @@
                  revision="android-7.1.1" />
 
  <remote name="github"
-
-           fetch="https://github.com/" />
+                 fetch="https://github.com/" />
 
 <default revision="refs/tags/android-7.1.1_r28"
            remote="aosp"
