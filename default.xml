@@ -22,7 +22,7 @@
 
 <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="bosp" />
 
-<project path="system_sepolicy" name="platform/system/sepolicy" groups="pdk" remote="bosp" />
+<project path="system_sepolicy" name="platform_system_sepolicy" groups="pdk" remote="bosp" />
 
 <!-- BOSP Bacon stuff -->
 <project path="device/oneplus/bacon" name="platform_device_oneplus_bacon" remote="bosp" />
