@@ -24,6 +24,8 @@
 
 <project path="system_sepolicy" name="platform_system_sepolicy" groups="pdk" remote="bosp" />
 
+<project path="system/core" name="platform_system_core" groups="pdk" remote="bosp" />
+
 <!-- BOSP Bacon stuff -->
 <project path="device/oneplus/bacon" name="platform_device_oneplus_bacon" remote="bosp" />
 
@@ -545,7 +547,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
